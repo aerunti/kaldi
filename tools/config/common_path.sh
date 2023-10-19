@@ -1,4 +1,5 @@
 # we assume KALDI_ROOT is already defined
+export KALDI_ROOT=/root/kaldi
 [ -z "$KALDI_ROOT" ] && echo >&2 "The variable KALDI_ROOT must be already defined" && exit 1
 # The formatting of the path export command is intentionally weird, because
 # this allows for easy diff'ing
